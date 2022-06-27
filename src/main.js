@@ -48,6 +48,7 @@ async function main({ config = {}, modules = [], ...params }) {
                 log(`模組 ${moduleName} 執行完畢\n`);
             } catch (err) {
                 catchError(err);
+                log(`失敗訊息: `+err.message);
                 log(`模組 ${moduleName} 執行失敗`);
             }
 
