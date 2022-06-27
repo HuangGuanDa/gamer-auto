@@ -30,6 +30,7 @@ ${msg}` })
     }
   }
 };
-export {
-  line_notify_default as default
-};
+module.exports =new line_notify_default();
+// export {
+//   line_notify_default as default
+// };
