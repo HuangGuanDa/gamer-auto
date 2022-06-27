@@ -1,5 +1,5 @@
 // src/modules/line_notify/index.ts
-import fetch from "node-fetch";
+const fetch = require("node-fetch");
 var line_notify_default = {
   name: "Line Notify \u901A\u77E5",
   description: "\u767C\u9001 Line Notify \u901A\u77E5",
